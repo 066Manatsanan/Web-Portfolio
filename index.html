@@ -7,12 +7,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-200">
+    
 
     <header class="bg-[#1E293B] text-white py-4 text-2xl">
         <div class="container mx-auto flex justify-between items-center px-6">
     
             <div class="flex items-center space-x-2">
-                <img src="images/pic10.png" alt="" class="w-8 h-19 rounded-full">
+                <img src="pic10.png" alt="" class="w-8 h-19 rounded-full">
                 <div class="text-lg md:text-2xl font-bold">P R O F I L E</div>
             </div>
     
@@ -22,12 +23,13 @@
             </button>
     
             <!-- เมนูหลัก -->
-            <nav id="nav-menu" class="hidden md:flex space-x-6">
+            <nav id="nav-menu" class="hidden md:flex space-x-6 ">
                 <a href="#home" class="hover:text-yellow-400">Home</a>
                 <a href="#Preface" class="hover:text-yellow-400">Preface</a>
                 <a href="#Profile" class="hover:text-yellow-400">Profile</a>
                 <a href="#Educational" class="hover:text-yellow-400">Educational</a>
                 <a href="#Certification" class="hover:text-yellow-400">Certification</a>
+                <a href="#Projects" class="hover:text-yellow-400">Projects</a>
                 <a href="#Contact" class="hover:text-yellow-400">Contact</a>
             </nav>
             
@@ -40,7 +42,7 @@
         document.getElementById("menu-toggle").addEventListener("click", function () {
             document.getElementById("nav-menu").classList.toggle("hidden");
         });
-    </script>
+    </script> 
     
     
     
@@ -48,6 +50,7 @@
     <!-- Hero Section -->
     <section class="relative bg-[#111827] text-white py-20 text-center text-xl"
     style="background-image: url('https://scontent.fhdy2-1.fna.fbcdn.net/v/t39.30808-6/476301532_1855922088145807_2146891144833359620_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFojm_6kelIc3E9mOsKll-DdkpJLNqlMa52Skks2qUxrs1rtSTjBflmrYTI6ndrZ0WCaBEorYHj1DsHOR8B_r7R&_nc_ohc=BZK5cgn3gEkQ7kNvgHpDxG3&_nc_oc=AdjzBss2-arKm0GygfMdyaIJJEelGGA5H2SD1J6ADDFxNzLWmOU-IkPWo5-T40nl9eVPKwb4jSag5xLvQEhDOkON&_nc_zt=23&_nc_ht=scontent.fhdy2-1.fna&_nc_gid=AaPSNc0zC2s2vP--qj0k1XN&oh=00_AYCmLl-Fb1ucviOhtG81Psoa1o49BPgmeDxeuOqS6LccQQ&oe=67B6B08D'); background-size: cover; background-position: center;">
+
     <div class="bg-black/50 p-6 md:p-10 rounded-md">
         <h1 class="text-3xl md:text-4xl font-bold">Welcome to my website</h1>
         <p class="mt-4 text-gray-300 text-lg md:text-xl">“  เว็บไซต์นี้เป็นพอร์ตโฟลิโอของฉัน ซึ่งรวบรวมทักษะและผลงานด้านการออกแบบและพัฒนาเว็บไซต์ จัดทำขึ้นเป็นส่วนหนึ่งของรายวิชา 934-026 Web Programming โดยได้รับการพัฒนาในระหว่างการศึกษา หวังว่าเนื้อหาในเว็บไซต์นี้จะเป็นประโยชน์ในการพิจารณาผลงานของฉัน ขอบคุณที่เข้ามาชมค่ะ  ”</p>
@@ -61,7 +64,7 @@
     <section id="Preface" class="bg-white py-16">
         <div class="container mx-auto grid md:grid-cols-2 gap-6 px-6">
             <div class="relative">
-                <img src="images/pic1.jpg" alt="Lawyer" class="rounded-md shadow-lg">
+                <img src="pic1.jpg" alt="Lawyer" class="rounded-md shadow-lg">
                 <p class="absolute bottom-4 left-4 bg-black text-white px-4 py-2 rounded-md">Manatsanan anantanarong</p>
             </div>
             <div>
@@ -119,6 +122,7 @@
 
 
     </body>
+
     <body class="text-gray-800 ">
         <div  id="Certification" class="container mx-auto py-12 px-6">
             <h2 class="text-3xl font-bold text-center mb-8">C E R T I F I C A T I O N 🏆🏅</h2>
@@ -127,21 +131,21 @@
                 <!-- มัธยมศึกษาตอนต้น -->
                 <div class="bg-white shadow-lg p-6 rounded-lg text-center">
                     <h3 class="text-2xl font-semibold mb-2">ได้เข้าร่วมหลักสูตร Cybersecurity Awarenessการสร้างความตระหนักรู้ด้านความมั่นคงทางไซเบอร์</h3>
-                    <img src="images/pic3.png" alt="มัธยมศึกษาตอนต้น" class="w-full h-50 object-cover rounded-lg mb-4">
+                    <img src="pic3.png" alt="มัธยมศึกษาตอนต้น" class="w-full h-50 object-cover rounded-lg mb-4">
                     
                 </div>
     
                 <!-- มัธยมศึกษาตอนปลาย -->
                 <div class="bg-white shadow-lg p-6 rounded-lg text-center">
-                    <h3 class="text-2xl font-semibold mb-2">ได้เข้าร่วมหลักสูตร การนำเทคโนโลยี A และการวิเคราะห์ข้อมูลมาใช้ <br> โอกาสและความท้าทาย</h3>
-                    <img src="images/pic4.png" alt="มัธยมศึกษาตอนปลาย" class="w-full h-50 object-cover rounded-lg mb-4">
+                    <h3 class="text-2xl font-semibold mb-2">ได้เข้าร่วมหลักสูตร การนำเทคโนโลยี AI และการวิเคราะห์ข้อมูลมาใช้ <br> โอกาสและความท้าทาย</h3>
+                    <img src="pic4.png" alt="มัธยมศึกษาตอนปลาย" class="w-full h-50 object-cover rounded-lg mb-4">
                    
                 </div>
     
                 <!-- อุดมศึกษา -->
                 <div class="bg-white shadow-lg p-6 rounded-lg text-center">
                     <h3 class="text-2xl font-semibold mb-2">ได้เข้าร่วมหลักสูตร Al Literacy <br> เพื่อการประยุกต์และพัฒนาเทคโนโลยีปัญญาประดิษฐ์</h3>
-                    <img src="images/pic5.png" alt="อุดมศึกษา" class="w-full h-50 object-cover rounded-lg mb-4">
+                    <img src="pic5.png" alt="อุดมศึกษา" class="w-full h-50 object-cover rounded-lg mb-4">
                     
                 </div>
             </div>
@@ -149,6 +153,74 @@
     </body>
     
     </html>
+
+    <div class="bg-white py-10"></div>
+
+     
+    <body class="text-gray-800 ">
+        <div  id="Projects" class="container mx-auto py-12 px-6">
+            <h2 class="text-3xl font-bold text-center mb-8">P R O J E C T S</h2>
+    
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- 1 -->
+                <div class="bg-white shadow-lg p-6 rounded-lg text-center">
+                    <li class="text-2xl font-semibold mb-2"><a href="../Exercises/Box_model.html"class="mt-4 block text-center bg-gray-800 text-white font-semibold py-2 rounded-lg hover:bg-blue-700 transition duration-300">
+                        See more ></a></li>
+                    <img src="pic4.png" alt="มัธยมศึกษาตอนปลาย" class="w-full h-50 object-cover rounded-lg mb-4">
+                  
+             
+                    
+                </div>
+    
+                <!-- 2 -->
+                <div class="bg-white shadow-lg p-6 rounded-lg text-center">
+                    <li class="text-2xl font-semibold mb-2"><a href="../Exercises/From_.html"class="mt-4 block text-center bg-gray-800 text-white font-semibold py-2 rounded-lg hover:bg-blue-700 transition duration-300">
+                        See more ></a></li>
+                    <img src="pic4.png" alt="มัธยมศึกษาตอนปลาย" class="w-full h-50 object-cover rounded-lg mb-4">
+                  
+             
+                    
+                </div>
+    
+                <!-- 3 -->
+                <div class="bg-white shadow-lg p-6 rounded-lg text-center">
+                    <li class="text-2xl font-semibold mb-2"><a href="../Exercises/Box_model.html"class="mt-4 block text-center bg-gray-800 text-white font-semibold py-2 rounded-lg hover:bg-blue-700 transition duration-300">
+                        See more ></a></li>
+                    <img src="pic4.png" alt="มัธยมศึกษาตอนปลาย" class="w-full h-50 object-cover rounded-lg mb-4">
+                  
+             
+                    
+                </div>
+
+                 <!-- 4 -->
+                 <div class="bg-white shadow-lg p-6 rounded-lg text-center">
+                    <li class="text-2xl font-semibold mb-2"><a href="../Exercises/Box_model.html"class="mt-4 block text-center bg-gray-800 text-white font-semibold py-2 rounded-lg hover:bg-blue-700 transition duration-300">
+                        See more ></a></li>
+                    <img src="pic4.png" alt="มัธยมศึกษาตอนปลาย" class="w-full h-50 object-cover rounded-lg mb-4">
+                  
+             
+                    
+                </div>
+                 <!-- 5 -->
+                 <div class="bg-white shadow-lg p-6 rounded-lg text-center">
+                    <div class="text-2xl font-semibold mb-2">
+                       
+                    </div>
+                    <img src="pic4.png" alt="มัธยมศึกษาตอนปลาย" class="w-full h-50 object-cover rounded-lg mb-4">
+                    <a href="../Exercises/Formvalidation.html" class="mt-4 block text-center bg-gray-800 text-white font-semibold py-2 rounded-lg hover:bg-blue-700 transition duration-300">
+                        See more >
+                    </a>
+                </div>
+                
+
+
+            </div>
+        </div>
+    </body>
+    
+    </html>
+
+    
 
 
     <!-- Practice Areas -->
@@ -185,7 +257,7 @@
                 <a href="https://www.facebook.com/share/1Bhpydib4D/?mibextid=wwXIfr" target="_blank" class="block">
                     <div class="bg-gray-800 p-6 rounded-lg shadow-md">
                         <h3 class="text-2xl font-bold inline-flex items-center space-x-2">
-                            <img src="images/pic9.png" alt="" class="w-10 h-10 rounded-full">
+                            <img src="pic9.png" alt="" class="w-10 h-10 rounded-full">
                             <span>FACEBOOK</span>
                         </h3>
                         <p class="text-gray-300 mt-2 text-xl">แพม ม.</p>
@@ -196,7 +268,7 @@
                 <a href="https://line.me/ti/p/FhVzg9f7bz" target="_blank" class="block">
                     <div class="bg-gray-800 p-6 rounded-lg shadow-md">
                         <h3 class="text-2xl font-bold inline-flex items-center space-x-2">
-                            <img src="images/pic8.png" alt="" class="w-10 h-10 rounded-full">
+                            <img src="pic8.png" alt="" class="w-10 h-10 rounded-full">
                             <span>LINE</span>
                         </h3>
                         <p class="text-gray-300 mt-2 text-xl">ID :pamaun9978</p>
@@ -208,7 +280,7 @@
                 <a href="https://www.instagram.com/pam_m18481?igsh=MTBsejFiYjkxN2Ntbg%3D%3D&utm_source=qr" target="_blank" class="block">
                     <div class="bg-gray-800 p-6 rounded-lg shadow-md">
                         <h3 class="text-2xl font-bold inline-flex items-center space-x-2">
-                            <img src="images/pic7.png" alt="" class="w-10 h-10 rounded-full">
+                            <img src="pic7.png" alt="" class="w-10 h-10 rounded-full">
                             <span>INSTAGRAM</span>
                         </h3>
                         <p class="text-gray-300 mt-2 text-xl">pam_m18481</p>
@@ -220,6 +292,8 @@
         </div>
         
     </section>
+
+    
 
     
     <!-- (ล่าง) -->
@@ -238,3 +312,5 @@
 
 </body>
 </html>
+
+
